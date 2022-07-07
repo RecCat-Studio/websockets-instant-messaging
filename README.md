@@ -9,7 +9,7 @@ Vous trouvez les 3 projets dans les dossiers ci-dessous
 - Un websocket  client en react pour une implémentation propre dans une web app avec des hooks
 
 
-Le code source est a votre disposition vous être libre de le réutiliser a votre guise. Je vous demanderai juste de ne pas réutiliser ma charte graphique et le logo.
+Le code source est à votre disposition vous être libre de le réutiliser à votre guise. Je vous demanderai juste de ne pas réutiliser ma charte graphique et le logo.
 
 À vous de jouer !
 
@@ -61,7 +61,7 @@ start project
 yarn start
 ```
 
-start project in developpment mode
+start project in development mode
 
 ```bash
 yarn dev
