@@ -7,7 +7,7 @@ Vous trouvez les 3 projets dans les dossiers ci-dessous
 - Le websocket server en node.js
 - Un websocket  client en node.js pour comprendre les fondamentaux (client-sandbox)
 - Un websocket  client en react pour une implémentation propre dans une web app avec des hooks
-- 
+
 
 Le code source est a votre disposition vous être libre de le réutiliser a votre guise. Je vous demanderai juste de ne pas réutiliser ma charte graphique et le logo.
 
