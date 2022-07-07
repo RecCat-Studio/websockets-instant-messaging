@@ -1,0 +1,133 @@
+:root {
+  font-family: 'Roboto';
+
+  --navbar-height: 80px;
+  --footer-height: 50px;
+  --chat-box-height: 650px;
+  --background: #0d1116;
+  --background-secondary: #1d252e;
+  --color: #fefefe;
+  --accent: #ffdb86;
+}
+
+html {
+  color: var(--color);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--background);
+}
+
+.navbar {
+  position: sticky;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #0d1116;
+  height: var(--navbar-height);
+  width: 100%;
+  line-height: 65px;
+  filter: drop-shadow(0px 1px 3px rgba(254, 254, 254, .1));
+}
+
+.logo-link {
+  margin-left: 8px;
+  height: 60px;
+}
+
+.logo {
+  height: 60px;
+}
+
+.title {
+  margin-left: 12px;
+}
+
+.content {
+  min-height: calc(100vh - (var(--navbar-height) + var(--footer-height)));
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-box {
+  width: 80vw;
+  height: var(--chat-box-height);
+  background-color: var(--background-secondary);
+  border-radius: 6px;
+}
+
+.input-name {
+  margin-bottom: 20px;
+  height: 40px;
+}
+
+.messages {
+  display: flex;
+  flex-flow: column-reverse nowrap;
+  height: calc(var(--chat-box-height) - 129px);
+  background-color: var(--background-secondary);
+  margin: 20px;
+  padding: 0 12px;
+  border: solid 1px var(--color);
+  border-radius: 6px;
+  overflow-y: auto;
+}
+
+.message {
+  background-color: var(--background-secondary);
+  border-radius: 6px;
+  color: var(--color);
+  padding: 0 8px;
+  margin-bottom: 15px;
+}
+
+.message > p {
+  margin: 8px 0;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.time {
+  font-size: small;
+  font-style: italic;
+}
+
+.action {
+  display: flex;
+  flex-flow: row nowrap;
+
+  height: 65px;
+  background-color: #1D252E;
+  margin: 20px;
+  border: solid 1px #0d1116;
+  border-radius: 6px;
+}
+
+.input-message {
+  width: 100%;
+  height: 65px;
+  box-sizing: border-box;
+}
+
+.button-message {
+  width: 200px;
+  height: 65px;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: var(--accent);
+  border: #ffdb86;
+}
+
+.footer {
+  background-color: #0d1116;
+  color: #fefefe;
+  height: var(--footer-height);
+  width: 100%;
+}
